@@ -6,7 +6,7 @@
 
   <groupId>com.marcarndt.morse</groupId>
   <artifactId>sshsftp</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
 
   <packaging>jar</packaging>
 
@@ -308,9 +308,9 @@
   </profiles>
 
   <scm>
-    <url>https://github.com/zamedic/morse-cdi-base.git</url>
+    <url>https://github.com/zamedic/morse-sftpssh.git</url>
     <developerConnection>
-      scm:git:ssh://builder@default@autobot-wkbxttwhfapcogjk.us-east-1.opsworks-cm.io:8989/default/Marc/MorseSshSftp
+      scm:git:ssh://builder@default@autobot-wkbxttwhfapcogjk.us-east-1.opsworks-cm.io:8989/default/Marc/morse-sshsftp
     </developerConnection>
     <tag>v1.1.0</tag>
   </scm>
