@@ -6,7 +6,7 @@
 
   <groupId>com.marcarndt.morse</groupId>
   <artifactId>sshsftp</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <packaging>jar</packaging>
 
@@ -30,6 +30,25 @@
       <artifactId>javaee-api</artifactId>
       <version>7.0</version>
       <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-module-junit4</artifactId>
+      <version>${powermock.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-api-mockito2</artifactId>
+      <version>${powermock.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
@@ -302,6 +321,14 @@
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
+
+  <repositories>
+    <repository>
+      <name>OSS Nexus</name>
+      <url>https://oss.sonatype.org/content/groups/public/</url>
+      <id>oss</id>
+    </repository>
+  </repositories>
 
   <developers>
     <developer>
